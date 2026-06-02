@@ -1,50 +1,64 @@
 # Bengaluru Rental Analytics Dashboard
 
 ## Overview
-A recruiter-ready analytics notebook built to analyze Bengaluru housing listings and rental trends. The project focuses on premium vs affordable neighborhoods, price-per-sqft segmentation, BHK pricing analysis, and SQL-backed insights for Bengaluru internship screening.
+Interactive Bengaluru housing analytics for startup-ready decision support. This project surfaces premium neighbourhoods, affordable pockets, BHK pricing trends, and price-per-sqft segmentation using an exploratory dashboard backed by clean data and predictive analytics.
+
+## Problem Statement
+Bengaluru real estate is highly local. The goal is to identify the most expensive and most affordable neighbourhoods, understand how BHK impacts price, and provide an analyst-ready dashboard for recruiters, startups, and data science internships.
+
+## Business Insights
+- Premium neighbourhoods are best identified by price per sqft rather than nominal price alone.
+- Affordable pockets exist in Bengaluru, offering clear recommendations for value-driven customers.
+- BHK is a strong pricing signal, but location and size together are more powerful when evaluated with price per sqft.
+- Interactive filtering is essential for business users to compare specific locations and budget segments.
+
+## Live Demo
+- Live app: `https://share.streamlit.io/<your-username>/Bengaluru_Rental_Analytics/main/app.py`
+
+## GitHub
+- Repository: `https://github.com/<your-username>/Bengaluru_Rental_Analytics`
 
 ## Dataset
-- **Source file**: `Bengaluru_House_Data.csv.xls`
-- **Cleaned export**: `bengaluru_cleaned_data.csv`
-- **SQLite database**: `bengaluru_housing.db`
+- `data/bengaluru_cleaned_data.csv` — cleaned dataset used by the dashboard
 
 ## Tech Stack
 - Python
 - pandas
-- NumPy
-- matplotlib
-- seaborn
-- SQLite
+- Streamlit
+- Plotly
+- scikit-learn
 
-## Key Features
-- Data cleaning and type conversion for Bengaluru housing listings
-- Feature engineering for `BHK` and `price_per_sqft`
-- Premium and affordable location analysis
-- BHK pricing trends and demand distribution
-- SQL analytics using SQLite for internship-level signal
-- Recruiter-friendly structure with business insights
-
-## Key Insights
-- Premium Bengaluru neighborhoods are driven by high price-per-sqft rather than absolute price
-- Affordable pockets exist, which is useful for budget-conscious decision making
-- Price per sqft is a stronger investment signal than raw price alone
-- Listing counts reveal demand hubs, important for location strategy in startups
+## Features
+- Interactive sidebar filters for location, BHK, and price range
+- Premium and affordable location charts
+- BHK price comparison and price-per-sqft distribution
+- Cleaned Bengaluru data and responsive dashboard layout
+- Professional README and recruiter-friendly structure
 
 ## Screenshots
-- `bengaluru_screenshots/kpi_summary_table.png`
-- `bengaluru_screenshots/premium_locations_chart.png`
-- `bengaluru_screenshots/affordable_locations_chart.png`
-- `bengaluru_screenshots/bhk_price_chart.png`
+- `screenshots/kpi_summary_table.png`
+- `screenshots/premium_locations_chart.png`
+- `screenshots/affordable_locations_chart.png`
+- `screenshots/bhk_price_chart.png`
 
 ## Project Structure
-- `bengaluru_rental_analytics_dashboard.ipynb` — main notebook
-- `Bengaluru_House_Data.csv.xls` — raw dataset
-- `bengaluru_cleaned_data.csv` — cleaned dataset export
-- `bengaluru_housing.db` — SQLite database of cleaned data
-- `bengaluru_screenshots/` — visual outputs
+- `app.py` — main Streamlit dashboard
+- `data/` — cleaned dataset and raw input if included
+- `notebooks/` — exploratory notebook assets
+- `screenshots/` — portfolio visuals
+- `README.md` — project documentation
+
+## Run locally
+```bash
+cd Bengaluru_Rental_Analytics
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## Future Improvements
-- Add clustering and segmentation for location-level insights
-- Bring in external Bengaluru geography features such as metro proximity
-- Deploy an interactive dashboard with Streamlit or Dash
-- Include map visualizations and more structured SQL analytics
+- Add Bengaluru neighbourhood map visualization with Folium or Plotly mapbox
+- Add rental growth forecasting and trend projections
+- Add clustering to segment premium, mid-range, and budget zones
+- Publish the dashboard on Streamlit Cloud for live sharing
