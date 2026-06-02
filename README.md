@@ -1,5 +1,8 @@
 # Bengaluru Rental Analytics Dashboard
 
+## Live Demo
+https://bengaluru-housing-analytics-dashboard-gmbyx4py4ovmaqbirv4hou.streamlit.app/
+
 ## Overview
 Interactive Bengaluru housing analytics for startup-ready decision support. This project surfaces premium neighbourhoods, affordable pockets, BHK pricing trends, and price-per-sqft segmentation using an exploratory dashboard backed by clean data and predictive analytics.
 
