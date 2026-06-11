@@ -14,13 +14,6 @@ Bengaluru real estate is highly local. The goal is to identify the most expensiv
 - Affordable pockets exist in Bengaluru, offering clear recommendations for value-driven customers.
 - BHK is a strong pricing signal, but location and size together are more powerful when evaluated with price per sqft.
 - Interactive filtering is essential for business users to compare specific locations and budget segments.
-
-## Live Demo
-- Live app: `https://share.streamlit.io/<your-username>/Bengaluru_Rental_Analytics/main/app.py`
-
-## GitHub
-- Repository: `https://github.com/<your-username>/Bengaluru_Rental_Analytics`
-
 ## Dataset
 - `data/bengaluru_cleaned_data.csv` — cleaned dataset used by the dashboard
 
