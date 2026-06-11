@@ -38,11 +38,20 @@ Bengaluru real estate is highly local. The goal is to identify the most expensiv
 - Cleaned Bengaluru data and responsive dashboard layout
 - Professional README and recruiter-friendly structure
 
-## Screenshots
-<p float="left">
-  <img src="images/premium_locations_chart.png" width="45%" />
-  <img src="images/affordable_locations_chart.png" width="45%" />
-</p>
+### Project Charts and Summary
+
+#### Premium Locations Chart
+![Premium Locations](images/premium_locations_chart.png)
+
+#### Affordable Locations Chart
+![Affordable Locations](images/affordable_locations_chart.png)
+
+#### BHK Price Chart
+![BHK Price Chart](images/bhk_price_chart.png)
+
+#### KPI Summary Table
+![KPI Summary Table](images/kpi_summary_table.png)
+
 
 
 ## Project Structure
