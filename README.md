@@ -39,10 +39,11 @@ Bengaluru real estate is highly local. The goal is to identify the most expensiv
 - Professional README and recruiter-friendly structure
 
 ## Screenshots
-- `screenshots/kpi_summary_table.png`
-- `screenshots/premium_locations_chart.png`
-- `screenshots/affordable_locations_chart.png`
-- `screenshots/bhk_price_chart.png`
+<p float="left">
+  <img src="images/premium_locations_chart.png" width="45%" />
+  <img src="images/affordable_locations_chart.png" width="45%" />
+</p>
+
 
 ## Project Structure
 - `app.py` — main Streamlit dashboard
